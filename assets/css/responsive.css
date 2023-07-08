@@ -1,10 +1,24 @@
+@media screen and (max-width:1024px){
+    #cover{
+        height: calc(80vh);
+        margin-bottom: 50px;
+    }
+    .zg-about{
+        padding-right: 100px;
+      }
+}
 @media screen and (max-width: 991px){
-    .cover1{
+    .cover1, #cover{
         clip-path: none;
         
     }
-    .cover1{
-        height: calc(25vh);
+    .zg-about{
+        padding-right: 60px;
+      }
+  
+    #cover{
+       align-items: baseline;
+       height: calc(115vh);
     }
     .gap-5 {
         gap: 0rem!important;
@@ -16,13 +30,42 @@
         font-size: 30px!important;
     }
 }
-
+@media screen and (max-width:800px){
+      #cover{
+        height: calc(100vh);
+     }
+}
+@media screen and (max-width:767px){
+    .zg-about{
+        padding-right: 5px;
+      }
+      #cover{
+        height: calc(100vh);
+     }
+}
+@media screen and (max-width:700px){
+    #cover{
+        height: calc(90vh);
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:580px){
+    #cover{
+        height: calc(80vh);
+        margin-bottom: 50px;
+    }
+    #cover{
+        align-items: center;
+     }
+}
 @media screen and (max-width:425px)
 {
     #cover{
-        height: calc(80vh);
+        height: calc(75vh);
     }
-
+    #offers {
+        margin-top: 0px;
+    }
     .line{
         width: 40%;
     }
@@ -30,8 +73,8 @@
         font-size: 26px!important;
     }
     #middle-pricing, #middle-author, #middle-contact,  #middle-about,  #middle-gallery{
-        margin-top: 70px;
-        margin-bottom: 70px;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
    
     
