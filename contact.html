@@ -7,15 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="Zorka Grčić 53/22"/>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Favicon-->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <!--Bootstrap css-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
   
     <!--CSS-->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/responsive.min.css" rel="stylesheet" type="text/css" />
     <!--fontawsome-->
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css"/>
     <title>Spirit Ranch</title>
@@ -77,8 +77,8 @@
     </section>
     <section id="middle-contact">
       <div class="container">
-        <div class="row shadow rounded-5">
-          <div class="col-12 col-lg-4 bg-cont p-5 p-lg-4 rounded-5">
+        <div class="row shadow rounded-3">
+          <div class="col-12 col-lg-4 bg-cont p-5 p-lg-4 rounded-3">
            <h2 class="mt-4">Get in touch</h2>
             <p><i class="fa-duotone fa-location-dot fs-3 me-2 my-3"></i></i>Hipodrom, Belgrade</p>
             <p><i class="fa-duotone fa-clock fs-3 me-2 my-3"></i>Mon - Sun: 09:00 - 15:00</p>
@@ -88,22 +88,22 @@
         <div class="col-12 col-lg-8 bg-cont-1 p-3 p-lg-5">
           <form method="post" id="form1" name="form1" action="action.php" title="form for message" class="mt-4">
               <div class="form-row d-flex">
-                <div class="col">
-                  <input type="text" class="form-control border-top-0 border-left-0 border-right-0 rounded-0" placeholder="First name">
+                <div class="col  me-2">
+                  <input type="text" class="form-control" id="name" placeholder="First name"/>
                 </div>
-                <div class="col">
-                  <input type="text" class="form-control border-top-0 border-left-0 border-right-0 rounded-0" placeholder="Last name">
+                <div class="col ms-2">
+                  <input type="text" class="form-control" id="lastname" placeholder="Last name"/>
                 </div>
               </div>
               <div class="form-group row my-5">
                   <div class="col-12">
-                    <input type="email" class="form-control border-top-0 border-left-0 border-right-0 rounded-0" id="colFormLabel" placeholder="E-Mail">
+                    <input type="email" class="form-control" id="e-mail" placeholder="E-Mail"/>
                   </div>
               </div>
               <div class="form-group">
-                  <textarea class="form-control border-top-0 border-left-0 border-right-0 rounded-0" id="exampleFormControlTextarea1" rows="5" placeholder="Enter your message here..."></textarea>
+                  <textarea class="form-control" id="textarea" rows="5" placeholder="Enter your message here..."></textarea>
               </div>
-              <button type="submit" class="btn zg-btn text-uppercase mt-4">Send Message</button>
+              <button type="submit" class="btn zg-btn text-uppercase mt-4 fs-6">Send Message</button>
           </form>
       </div>
   </div>
@@ -153,8 +153,8 @@
               <h2 class="text-capitalize fs-4 text-center zg-font2">Or contact us!</h2>
               <p><i class="fa-solid fa-square-phone fs-5"></i> +381 64 123 4567 </p>
             </div>
-           
           </div>
+
           <div class="col-lg-3 col-md-4 d-flex align-items-start align-items-md-end zg-column ps-md-0">
             <h2 class="text-capitalize fs-4 zg-font2 pt-5 pt-md-0">Useful links</h2>
             <ul class="navbar-nav text-start text-md-end">
