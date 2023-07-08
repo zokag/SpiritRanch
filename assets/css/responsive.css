@@ -1,0 +1,38 @@
+@media screen and (max-width: 991px){
+    .cover1{
+        clip-path: none;
+        
+    }
+    .cover1{
+        height: calc(25vh);
+    }
+    .gap-5 {
+        gap: 0rem!important;
+    }
+    footer{
+        clip-path: none;
+    }
+    #middle-pricing h2{
+        font-size: 30px!important;
+    }
+}
+
+@media screen and (max-width:425px)
+{
+    #cover{
+        height: calc(80vh);
+    }
+
+    .line{
+        width: 40%;
+    }
+    #middle-pricing h2{
+        font-size: 26px!important;
+    }
+    #middle-pricing, #middle-author, #middle-contact,  #middle-about,  #middle-gallery{
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+   
+    
+}
