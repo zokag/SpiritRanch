@@ -42,6 +42,9 @@
       #cover{
         height: calc(100vh);
      }
+     .gallery-container:hover {
+        transform: none;
+      }
 }
 @media screen and (max-width:700px){
     #cover{
@@ -60,6 +63,7 @@
 }
 @media screen and (max-width:425px)
 {
+    
     #cover{
         height: calc(75vh);
     }
