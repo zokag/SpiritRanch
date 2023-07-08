@@ -1,5 +1,5 @@
 @media screen and (max-width: 991px){
-    .cover1 #cover{
+    .cover1, #cover{
         clip-path: none;
         
     }
